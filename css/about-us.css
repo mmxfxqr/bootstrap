@@ -1,0 +1,30 @@
+body{
+    background-color: #fff;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-item{
+    margin-right: 20px ;
+}
+.nav-item:last-child{
+    margin-right: 0px;
+}
+.social-icon:not(:last-child) {
+    margin-right: 25px; /* Регулируйте значение, чтобы изменить расстояние между иконками */
+}
+a {
+    text-decoration: none;
+}
+.container-fluid{
+    padding: 0px;
+}
+.mb-5{
+    margin-bottom: 20px!important;
+}
+.row{
+    margin: 70px auto;
+}

@@ -1,0 +1,41 @@
+body{
+    background-color: #fff;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-item{
+    margin-right: 20px ;
+}
+.nav-item:last-child{
+    margin-right: 0px;
+}
+.social-icon:not(:last-child) {
+    margin-right: 25px; /* Регулируйте значение, чтобы изменить расстояние между иконками */
+}
+a {
+    text-decoration: none;
+}
+.container-fluid{
+    padding: 0px;
+}
+
+h4{
+    text-align: center;
+    padding: 40px 0px;
+}
+.col-md-4{
+    margin: 0 auto;
+}
+.card-body{
+    background-color: #fff;
+}
+.card-body{
+ 
+}
+.card-title{
+    font-weight: 700;
+}

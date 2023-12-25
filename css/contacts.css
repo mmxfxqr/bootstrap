@@ -1,0 +1,39 @@
+body{
+    background-color: #fff;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-item{
+    margin-right: 20px ;
+}
+.nav-item:last-child{
+    margin-right: 0px;
+}
+.social-icon:not(:last-child) {
+    margin-right: 25px; /* Регулируйте значение, чтобы изменить расстояние между иконками */
+}
+a {
+    text-decoration: none;
+}
+.container-fluid{
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    max-width: 1320px;
+}
+.header-image{
+    display: block;
+    margin: 0 auto;
+    max-height: 600px;
+}
+h1{
+    margin-top: 30px;
+}
+.contact-info{
+    margin-bottom: 30px;
+}
